@@ -1,0 +1,77 @@
+[    0.000000] Srinath Koilakonda : setup_arch(): command_line=(null)
+[    0.000000] Srinath Koilakonda : copy_edd(): command_line= void 
+[    0.000000] Srinath Koilakonda : e820_add_kernel_range(): command_line= void 
+[    0.000000] Srinath Koilakonda : trim_bios_range(): command_line= VOID 
+[    0.000000] Srinath Koilakonda : reserve_crashkernel(): command_line=BOOT_IMAGE=/boot/custom/vmlinuz-linux4.14 root=UUID=2512d53b-a716-4de4-ab6c-8a4499566b72 rw quiet
+[    0.036018] Srinath Koialkonda 
+[    0.036027] Srinath Koilakonda
+[    0.036036] Srinath Koilakonda: Node 0 DMA free:15904kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[    0.036051] Srinath Koilakonda: Node 0 DMA32 free:3542820kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:3635696kB managed:3542844kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:24kB local_pcp:24kB free_cma:0kB
+[    0.036066] Srinath Koilakonda: Node 0 Normal free:319328kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:393216kB managed:327792kB mlocked:0kB kernel_stack:224kB pagetables:0kB bounce:0kB free_pcp:88kB local_pcp:88kB free_cma:0kB
+[    0.036080] Srinath Koilakonda: Node 0 DMA: 0*4kB 0*8kB 0*16kB 1*32kB (U) 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15904kB
+[    0.036104] Srinath Koilakonda: Node 0 DMA32: 1*4kB (M) 2*8kB (M) 3*16kB (M) 1*32kB (M) 1*64kB (M) 1*128kB (M) 2*256kB (M) 2*512kB (M) 2*1024kB (M) 2*2048kB (M) 863*4096kB (M) = 3542820kB
+[    0.036124] Srinath Koilakonda: Node 0 Normal: 14*4kB (UME) 13*8kB (UM) 2*16kB (M) 3*32kB (ME) 11*64kB (ME) 3*128kB (UM) 4*256kB (UME) 5*512kB (UME) 5*1024kB (UME) 3*2048kB (UME) 74*4096kB (M) = 319328kB
+[    0.036140]  Srinath koilakonda : 1011225 pages RAM
+[    0.036140]  Srinath koilakonda : 0 pages HighMem/MovableOnly
+[    0.036141]  Srinath koilakonda : 39590 pages reserved
+[    0.036142]  Srinath koilakonda : 0 pages hwpoisoned
+[    0.036142] Srinath Koilakonda: Node 0 Zone DMA
+[    0.036143] Srinath Koilakonda :     0
+[    0.036143] Srinath Koilakonda :     0
+[    0.036144] Srinath Koilakonda :     0
+[    0.036144] Srinath Koilakonda :     1
+[    0.036145] Srinath Koilakonda :     2
+[    0.036145] Srinath Koilakonda :     1
+[    0.036146] Srinath Koilakonda :     1
+[    0.036146] Srinath Koilakonda :     0
+[    0.036147] Srinath Koilakonda :     1
+[    0.036147] Srinath Koilakonda :     1
+[    0.036147] Srinath Koilakonda :     3
+[    0.036148] Srinath Koilakonda: Node 0 Zone DMA32
+[    0.036149] Srinath Koilakonda :     1
+[    0.036149] Srinath Koilakonda :     2
+[    0.036150] Srinath Koilakonda :     3
+[    0.036150] Srinath Koilakonda :     1
+[    0.036151] Srinath Koilakonda :     1
+[    0.036151] Srinath Koilakonda :     1
+[    0.036152] Srinath Koilakonda :     2
+[    0.036152] Srinath Koilakonda :     2
+[    0.036152] Srinath Koilakonda :     2
+[    0.036153] Srinath Koilakonda :     2
+[    0.036153] Srinath Koilakonda :   863
+[    0.036154] Srinath Koilakonda: Node 0 Zone Normal
+[    0.036155] Srinath Koilakonda :    14
+[    0.036155] Srinath Koilakonda :    13
+[    0.036156] Srinath Koilakonda :     2
+[    0.036156] Srinath Koilakonda :     3
+[    0.036157] Srinath Koilakonda :    11
+[    0.036157] Srinath Koilakonda :     3
+[    0.036158] Srinath Koilakonda :     4
+[    0.036158] Srinath Koilakonda :     5
+[    0.036158] Srinath Koilakonda :     5
+[    0.036159] Srinath Koilakonda :     3
+[    0.036159] Srinath Koilakonda :    74
+[    0.036160] Srinath Koilakonda: Node 0 Zone Movable
+[    0.036161] Srinath Koilakonda :     0
+[    0.036161] Srinath Koilakonda :     0
+[    0.036162] Srinath Koilakonda :     0
+[    0.036162] Srinath Koilakonda :     0
+[    0.036163] Srinath Koilakonda :     0
+[    0.036163] Srinath Koilakonda :     0
+[    0.036164] Srinath Koilakonda :     0
+[    0.036164] Srinath Koilakonda :     0
+[    0.036165] Srinath Koilakonda :     0
+[    0.036165] Srinath Koilakonda :     0
+[    0.036165] Srinath Koilakonda :     0
+[    0.036166] Srinath Koilakonda: Node 0 Zone Device
+[    0.036167] Srinath Koilakonda :     0
+[    0.036167] Srinath Koilakonda :     0
+[    0.036168] Srinath Koilakonda :     0
+[    0.036168] Srinath Koilakonda :     0
+[    0.036169] Srinath Koilakonda :     0
+[    0.036169] Srinath Koilakonda :     0
+[    0.036170] Srinath Koilakonda :     0
+[    0.036170] Srinath Koilakonda :     0
+[    0.036171] Srinath Koilakonda :     0
+[    0.036171] Srinath Koilakonda :     0
+[    0.036171] Srinath Koilakonda :     0
