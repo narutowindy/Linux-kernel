@@ -1,0 +1,199 @@
+[    0.000000] microcode: microcode updated early to revision 0x4, date = 2013-06-28
+[    0.000000] Linux version 4.14.32Custom-cs680 (windy@cloud) (gcc version 7.3.1 20180406 (GCC)) #8 SMP PREEMPT Thu Apr 26 04:09:47 EDT 2018
+[    0.000000] Srinath Koilakonda : setup_arch(): command_line=(null)
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: x87 FPU will use FXSAVE
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009e7ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dee7bfff] usable
+--
+[    0.000000] BIOS-e820: [mem 0x00000000def31000-0x00000000dfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed10000-0x00000000fed13fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed18000-0x00000000fed19fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ffa00000-0x00000000ffbfffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ffe00000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x0000000117ffffff] usable
+[    0.000000] Srinath Koilakonda : copy_edd(): command_line= void 
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] random: fast init done
+[    0.000000] SMBIOS 2.6 present.
+[    0.000000] DMI: Sony Corporation Reserved/VAIO, BIOS R0300Y8 07/20/2010
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] Srinath Koilakonda : e820_add_kernel_range(): command_line= void 
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] Srinath Koilakonda : trim_bios_range(): command_line= VOID 
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] e820: last_pfn = 0x118000 max_arch_pfn = 0x400000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR fixed ranges enabled:
+[    0.000000]   00000-9FFFF write-back
+[    0.000000]   A0000-BFFFF uncachable
+[    0.000000]   C0000-CFFFF write-protect
+[    0.000000]   D0000-E7FFF uncachable
+[    0.000000]   E8000-FFFFF write-protect
+[    0.000000] MTRR variable ranges enabled:
+--
+[    0.000000] ACPI: APIC 0x00000000DEF1BF18 00008C (v02 Sony   VAIO     20100720 MSFT 00010013)
+[    0.000000] ACPI: MCFG 0x00000000DEF2FD18 00003C (v01 Sony   VAIO     20100720 MSFT 00000097)
+[    0.000000] ACPI: HPET 0x00000000DEF2FC98 000038 (v01 Sony   VAIO     20100720 MSFT 00000003)
+[    0.000000] ACPI: SLIC 0x00000000DEF28A18 000176 (v01 Sony   VAIO     20100720 Sony 01000000)
+[    0.000000] ACPI: SSDT 0x00000000DEF16018 0009F1 (v01 Sony   VAIO     20100720 INTL 20051117)
+[    0.000000] ACPI: SSDT 0x00000000DEF15C18 00014B (v01 Sony   VAIO     20100720 INTL 20051117)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x0000000117ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x117ffb000-0x117ffdfff]
+[    0.000000] Srinath Koilakonda : reserve_crashkernel(): command_line=BOOT_IMAGE=/boot/custom/vmlinuz-linux4.14 root=UUID=2512d53b-a716-4de4-ab6c-8a4499566b72 rw quiet
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.000000]   Normal   [mem 0x0000000100000000-0x0000000117ffffff]
+[    0.000000]   Device   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+[    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dee7bfff]
+[    0.000000]   node   0: [mem 0x0000000100000000-0x0000000117ffffff]
+--
+[    0.029053] core: CPUID marked event: 'bus cycles' unavailable
+[    0.029057] ... version:                3
+[    0.029058] ... bit width:              48
+[    0.029060] ... generic registers:      4
+[    0.029061] ... value mask:             0000ffffffffffff
+[    0.029063] ... max period:             000000007fffffff
+[    0.029064] ... fixed-purpose events:   3
+[    0.029066] ... event mask:             000000070000000f
+[    0.031008] Hierarchical SRCU implementation.
+[    0.037015]  Srinth Koilakonda: Mem-Info:
+[    0.037018] Srinath Koialkonda 
+[    0.037026] active_anon:0 inactive_anon:0 isolated_anon:0
+                active_file:0 inactive_file:0 isolated_file:0
+                unevictable:0 dirty:0 writeback:0 unstable:0
+                slab_reclaimable:25 slab_unreclaimable:223
+                mapped:0 shmem:0 pagetables:0 bounce:0
+                free:969512 free_pcp:28 free_cma:0
+[    0.037027] Srinath Koilakonda
+[    0.037034] Node 0 active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:0kB dirty:0kB writeback:0kB shmem:0kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+[    0.037036] Srinath Koilakonda: Node 0 DMA free:15904kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[    0.037045] lowmem_reserve[]: 0 0 0 0 0
+[    0.037051] Srinath Koilakonda: Node 0 DMA32 free:3542816kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:3635696kB managed:3542840kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:24kB local_pcp:24kB free_cma:0kB
+[    0.037060] lowmem_reserve[]: 0 0 0 0 0
+[    0.037066] Srinath Koilakonda: Node 0 Normal free:319328kB min:0kB low:0kB high:0kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:393216kB managed:327792kB mlocked:0kB kernel_stack:224kB pagetables:0kB bounce:0kB free_pcp:88kB local_pcp:88kB free_cma:0kB
+[    0.037074] lowmem_reserve[]: 0 0 0 0 0
+[    0.037080] Srinath Koilakonda: Node 0 DMA: 0*4kB 0*8kB 0*16kB 1*32kB (U) 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15904kB
+[    0.037105] Srinath Koilakonda: Node 0 DMA32: 2*4kB (M) 3*8kB (M) 2*16kB (M) 1*32kB (M) 1*64kB (M) 1*128kB (M) 2*256kB (M) 2*512kB (M) 2*1024kB (M) 2*2048kB (M) 863*4096kB (M) = 3542816kB
+[    0.037123] Srinath Koilakonda: Node 0 Normal: 14*4kB (UME) 13*8kB (UM) 2*16kB (M) 3*32kB (ME) 11*64kB (ME) 3*128kB (UM) 4*256kB (UME) 5*512kB (UME) 5*1024kB (UME) 3*2048kB (UME) 74*4096kB (M) = 319328kB
+[    0.037135] 0 total pagecache pages
+[    0.037136] 0 pages in swap cache
+[    0.037137] Swap cache stats: add 0, delete 0, find 0/0
+[    0.037138] Free swap  = 0kB
+[    0.037138] Total swap = 0kB
+[    0.037139]  Srinath koilakonda : 1011225 pages RAM
+[    0.037139]  Srinath koilakonda : 0 pages HighMem/MovableOnly
+[    0.037140]  Srinath koilakonda : 39591 pages reserved
+[    0.037141]  Srinath koilakonda : 0 pages hwpoisoned
+[    0.037141] Srinath Koilakonda: Node 0 Zone DMA
+[    0.037142] Srinath Koilakonda :     0
+[    0.037142] Srinath Koilakonda :     0
+[    0.037143] Srinath Koilakonda :     0
+[    0.037143] Srinath Koilakonda :     1
+[    0.037144] Srinath Koilakonda :     2
+[    0.037144] Srinath Koilakonda :     1
+[    0.037145] Srinath Koilakonda :     1
+[    0.037145] Srinath Koilakonda :     0
+[    0.037145] Srinath Koilakonda :     1
+[    0.037146] Srinath Koilakonda :     1
+[    0.037146] Srinath Koilakonda :     3
+
+[    0.037147] Srinath Koilakonda: Node 0 Zone DMA32
+[    0.037148] Srinath Koilakonda :     2
+[    0.037148] Srinath Koilakonda :     3
+[    0.037149] Srinath Koilakonda :     2
+[    0.037149] Srinath Koilakonda :     1
+[    0.037150] Srinath Koilakonda :     1
+[    0.037150] Srinath Koilakonda :     1
+[    0.037151] Srinath Koilakonda :     2
+[    0.037151] Srinath Koilakonda :     2
+[    0.037151] Srinath Koilakonda :     2
+[    0.037152] Srinath Koilakonda :     2
+[    0.037152] Srinath Koilakonda :   863
+
+[    0.037153] Srinath Koilakonda: Node 0 Zone Normal
+[    0.037154] Srinath Koilakonda :    14
+[    0.037154] Srinath Koilakonda :    13
+[    0.037155] Srinath Koilakonda :     2
+[    0.037155] Srinath Koilakonda :     3
+[    0.037156] Srinath Koilakonda :    11
+[    0.037156] Srinath Koilakonda :     3
+[    0.037157] Srinath Koilakonda :     4
+[    0.037157] Srinath Koilakonda :     5
+[    0.037157] Srinath Koilakonda :     5
+[    0.037158] Srinath Koilakonda :     3
+[    0.037158] Srinath Koilakonda :    74
+
+[    0.037159] Srinath Koilakonda: Node 0 Zone Movable
+[    0.037160] Srinath Koilakonda :     0
+[    0.037160] Srinath Koilakonda :     0
+[    0.037161] Srinath Koilakonda :     0
+[    0.037161] Srinath Koilakonda :     0
+[    0.037162] Srinath Koilakonda :     0
+[    0.037162] Srinath Koilakonda :     0
+[    0.037163] Srinath Koilakonda :     0
+[    0.037163] Srinath Koilakonda :     0
+[    0.037164] Srinath Koilakonda :     0
+[    0.037164] Srinath Koilakonda :     0
+[    0.037164] Srinath Koilakonda :     0
+
+[    0.037165] Srinath Koilakonda: Node 0 Zone Device
+[    0.037166] Srinath Koilakonda :     0
+[    0.037166] Srinath Koilakonda :     0
+[    0.037167] Srinath Koilakonda :     0
+[    0.037167] Srinath Koilakonda :     0
+[    0.037168] Srinath Koilakonda :     0
+[    0.037168] Srinath Koilakonda :     0
+[    0.037169] Srinath Koilakonda :     0
+[    0.037169] Srinath Koilakonda :     0
+[    0.037170] Srinath Koilakonda :     0
+[    0.037170] Srinath Koilakonda :     0
+[    0.037170] Srinath Koilakonda :     0
+
+[    0.037387] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.039007] smp: Bringing up secondary CPUs ...
+[    0.048030] x86: Booting SMP configuration:
+[    0.048033] .... node  #0, CPUs:      #1 #2 #3
+[    0.070041] smp: Brought up 1 node, 4 CPUs
+[    0.070041] smpboot: Total of 4 processors activated (21280.46 BogoMIPS)
+[    0.072068] devtmpfs: initialized
+[    0.072068] x86/mm: Memory block size: 128MB
+[    0.072451] PM: Registering ACPI NVS region [mem 0xdee7c000-0xdeebbfff] (262144 bytes)
+--
+[    3.390243] Loading compiled-in X.509 certificates
+[    3.390276] zswap: loaded using pool lzo/zbud
+[    3.393978] Key type big_key registered
+[    3.394811]   Magic number: 14:530:212
+[    3.394884] acpi device:63: hash matches
+[    3.394947] hctosys: unable to open rtc device (rtc0)
+[    3.399894] Freeing unused kernel memory: 1428K
+[    3.399897] Write protecting the kernel read-only data: 16384k
+[    3.401081] Freeing unused kernel memory: 2016K
+[    3.405903] Freeing unused kernel memory: 912K
+[    3.405906] Srinath Koilakonda:sk2589
+[    3.420541] SCSI subsystem initialized
+[    3.424416] libata version 3.00 loaded.
+[    3.425686] ahci 0000:00:1f.2: version 3.0
+[    3.425966] ahci 0000:00:1f.2: SSS flag set, parallel bus scan disabled
+[    3.426031] ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 4 ports 3 Gbps 0x23 impl SATA mode
+[    3.426034] ahci 0000:00:1f.2: flags: 64bit ncq sntf stag pm led clo pio slum part sxs apst 
+[    3.426675] scsi host0: ahci
+[    3.426939] scsi host1: ahci
+[    3.427131] scsi host2: ahci
+[    3.427234] scsi host3: ahci
