@@ -1,0 +1,31 @@
+asdasd#!/bin/sh
+~>>@cloud /e/grub.d# cat 42_custom_kernel 
+#!/bin/sh
+exec tail -n +3 $0
+#
+#
+#
+menuentry 'Arch Linux custom kernel cs860' --class arch --class gnu-linux --class gnu --class os {
+	load_video
+	set gfxpayload=keep
+	insmod gzio
+	insmod part_msdos
+	insmod ext2
+	set root='hd0,msdos7'
+	if [ x$feature_platform_search_hint = xy ]; then
+	  search --no-floppy --fs-uuid --set=root --hint-ieee1275='ieee1275//disk@0,msdos7' --hint-bios=hd0,msdos7 --hint-efi=hd0,msdos7 --hint-baremetal=ahci0,msdos7  2512d53b-a716-4de4-ab6c-8a4499566b72
+	else
+	  search --no-floppy --fs-uuid --set=root 2512d53b-a716-4de4-ab6c-8a4499566b72
+	fi
+	echo	'Loading Linux linux4.14 ...'
+	linux	/boot/custom/vmlinuz-linux4.14 root=UUID=2512d53b-a716-4de4-ab6c-8a4499566b72 rw  quiet
+	echo	'Loading initial ramdisk ...'
+	initrd	/boot/intel-ucode.img /boot/custom/initramfs-linux4.14.img
+}
+~>>@cloud /e/grub.d# 
+
+
+
+
+
+
